@@ -293,7 +293,7 @@ test.py
 10. No arquivo `Dockerfile`, copie e cole as informações abaixo.
 
 ```Dockerfile
-FROM python:3.10-alpine3.21
+FROM python:3.10.20-alpine3.24
 LABEL MANTAINER="Seu Nome"
 
 WORKDIR /app
